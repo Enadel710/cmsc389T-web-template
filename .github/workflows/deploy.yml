@@ -15,5 +15,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd Enadel710.github.io
+            cd ../pub/Enadel710.github.io
             git pull

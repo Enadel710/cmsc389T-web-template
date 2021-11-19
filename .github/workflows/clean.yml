@@ -15,4 +15,4 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             unalias rm
-            rm -rf Enadel710.github.io
+            rm -rf ../pub/Enadel710.github.io
